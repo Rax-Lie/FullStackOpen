@@ -1,0 +1,14 @@
+title new note
+
+Browser->Server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note
+
+Server-->Browser: 302 Found
+
+Browser->Server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/note
+
+Server-->Browser: 200
+
+note over Browser:
+The browser will do the same thing
+as the previous page opened.
+end note
